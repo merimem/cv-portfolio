@@ -19,7 +19,7 @@ export function ContactSection() {
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault()
-    // Handle form submission
+
     console.log("Form submitted:", formData)
   }
 
@@ -33,7 +33,6 @@ export function ContactSection() {
       </div>
 
       <div className="grid gap-6 md:grid-cols-2">
-        {/* Contact info */}
         <div className="space-y-4">
           <div className="glass rounded-lg p-6 space-y-4">
             <h3 className="text-xl font-semibold">Contact Information</h3>
@@ -86,7 +85,6 @@ export function ContactSection() {
           </div>
         </div>
 
-        {/* Contact form */}
         <form
           onSubmit={handleSubmit}
           className="glass rounded-lg p-6 space-y-4"
