@@ -85,7 +85,7 @@ export function ContactSection() {
           </div>
         </div>
 
-        <form
+        {/* <form
           onSubmit={handleSubmit}
           className="glass rounded-lg p-6 space-y-4"
         >
@@ -136,7 +136,7 @@ export function ContactSection() {
             <Send className="w-4 h-4 mr-2" />
             Send Message
           </Button>
-        </form>
+        </form> */}
       </div>
     </div>
   )

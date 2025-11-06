@@ -5,12 +5,12 @@ export const experiences = [
     Took the frontend lead on several B2B projects — including Carrefour’s Digital Asset Management (D.A.M) platform — by architecting scalable solutions, writing robust and maintainable code, and implementing comprehensive testing to ensure high performance and reliability.`,
     tech: [
       "RemixJS",
-      "Tailwind",
+      "NextJS",
       "ReactJS",
       "Typescript",
-      "NextJS",
+      "Tailwind",
+      "Storybook",
       "MySQL",
-      "Gitlab",
       "NodeJs",
       "Jest",
     ],
@@ -20,7 +20,7 @@ export const experiences = [
   },
   {
     title: "Frontend Developer - Qare",
-    description: `Improved the Qare.fr website and developed new features to enhance user experience and performance. 
+    description: `Improved the www.qare.fr website and developed new features to enhance user experience and performance. 
       Designed and optimized UI components using React.js and Redux. 
       Contributed to code reviews and use case implementations, and actively participated in the evolution of the design system with Storybook. 
       Developed and maintained unit and end-to-end tests using Jest and Cypress, while working within a hexagonal front-end architecture (UI, Business Logic, and Services layers) to ensure scalability and maintainability.`,

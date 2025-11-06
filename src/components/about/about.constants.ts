@@ -2,11 +2,11 @@ export const skills = [
   {
     title: "Frontend Development",
     description: `Crafting responsive, accessible, and performant user interfaces
-              with React, Next.js, and modern CSS frameworks.`,
+              with React, RemixJS/Next.js, and modern CSS frameworks.`,
   },
   {
     title: "Backend Development",
-    description: `I use NodeJS.`,
+    description: `Building robust and scalable backend systems using Node.js, Express, and RESTful APIs. Focused on designing efficient architectures, integrating databases, and ensuring secure, high-performance server-side logic.`,
   },
   {
     title: "Smart Contract Development",

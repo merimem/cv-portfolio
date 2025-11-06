@@ -14,33 +14,35 @@ export function AboutSection() {
           </Avatar>
           <h1 className="text-4xl font-bold text-balance">
             Senior Full-Stack Developer
-            <p className="text-2xl">
+            <p className="text-xl">
               <span className="text-primary">React</span>,{" "}
-              <span className="text-accent">NodeJS</span>,{" "}
-              <span className="text-chart-5">Solidity</span>
+              <span className="text-accent">Remix/Next.JS</span>,{" "}
+              <span className="text-chart-5">NodeJS</span>,{" "}
+              <span className="text-primary">Solidity</span>
             </p>
           </h1>
         </div>
         <p className="text-lg text-muted-foreground leading-relaxed">
-          Building the future of decentralized applications with modern web
-          technologies and blockchain innovation.
+          An engineer experienced in working with major companies and helping
+          startups create powerful, high-impact websites. With a strong sense of
+          art and design, I combine technical expertise with creativity to
+          deliver visually stunning and performance-driven digital experiences.
         </p>
       </div>
 
       <div className="space-y-4">
         <h2 className="text-2xl font-semibold">Who I Am</h2>
         <p className="text-muted-foreground leading-relaxed">
-          I`m a passionate developer with expertise in creating seamless user
-          experiences on the frontend while architecting secure and efficient
-          smart contracts on the blockchain. My work bridges the gap between
-          Web2 and Web3, delivering applications that are both beautiful and
-          decentralized.
+          I`m an expert in building modern, high-performance web applications
+          and currently training in developing decentralized applications
+          (dApps) and smart contracts within the Web3 ecosystem. My work bridges
+          the gap between Web2 and Web3, focusing on creating innovative,
+          scalable, and user-centric solutions.
         </p>
         <p className="text-muted-foreground leading-relaxed">
-          With a strong foundation in React, Next.js, and TypeScript, combined
-          with deep knowledge of Solidity, Ethereum, and DeFi protocols, I
-          create full-stack dApps that push the boundaries of whats possible in
-          Web3.
+          With a deep understanding of modern UI/UX principles and
+          component-driven architecture, I transform complex ideas into
+          seamless, interactive user experiences that drive real impact.
         </p>
       </div>
 
