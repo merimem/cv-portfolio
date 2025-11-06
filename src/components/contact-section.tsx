@@ -1,27 +1,21 @@
 "use client"
 
-import type React from "react"
 
-import { useState } from "react"
-import { Mail, MapPin, Send } from "lucide-react"
-import { Button } from "@/components/ui/button"
-import { Input } from "@/components/ui/input"
-import { Textarea } from "@/components/ui/textarea"
-import { Label } from "@/components/ui/label"
 import { profile } from "@/app/constants/config"
+import { Mail, MapPin } from "lucide-react"
 
 export function ContactSection() {
-  const [formData, setFormData] = useState({
-    name: "",
-    email: "",
-    message: "",
-  })
+  // const [formData, setFormData] = useState({
+  //   name: "",
+  //   email: "",
+  //   message: "",
+  // })
 
-  const handleSubmit = (e: React.FormEvent) => {
-    e.preventDefault()
+  // const handleSubmit = (e: React.FormEvent) => {
+  //   e.preventDefault()
 
-    console.log("Form submitted:", formData)
-  }
+  //   console.log("Form submitted:", formData)
+  // }
 
   return (
     <div className="space-y-6">
